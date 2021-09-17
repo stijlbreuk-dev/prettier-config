@@ -1,0 +1,54 @@
+{
+  "name": "@stijlbreuk/prettier-config",
+  "version": "1.0.0",
+  "description": "A global Prettier config to be used in Stijlbreuk projects",
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "stijlbreuk"
+  ],
+  "bugs": {
+    "url": "https://github.com/stijlbreuk/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stijlbreuk/prettier-config"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Stijlbreuk",
+    "email": "hello@stijlbreuk.nl",
+    "url": "https://stijlbreuk.nl"
+  },
+  "contributors": [
+    {
+      "name": "Max Altena",
+      "email": "max@stijlbreuk.nl",
+      "url": "https://stijlbreuk.nl"
+    }
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.config.js"
+  ],
+  "scripts": {
+    "prettier": "prettier --check .",
+    "prettier:fix": "npm run prettier -- --write",
+    "semantic-release": "semantic-release",
+    "prepare": "husky install",
+    "sort-package-json": "sort-package-json"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^9.0.1",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
+    "semantic-release": "^17.4.7",
+    "sort-package-json": "^1.51.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
