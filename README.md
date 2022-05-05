@@ -30,7 +30,7 @@ In your `package.json` add the `prettier` key followed by the package name:
 {
 	"name": "package-name",
 	"version": "1.0.0",
-	"prettier" "@stijlbreuk/prettier-config"
+	"prettier": "@stijlbreuk/prettier-config"
 }
 ```
 
