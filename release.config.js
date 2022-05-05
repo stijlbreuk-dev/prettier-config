@@ -5,6 +5,11 @@ module.exports = {
       '@semantic-release/commit-analyzer',
       {
         preset: 'conventionalcommits',
+        releaseRules: [
+          { type: 'docs', scope: 'README', release: 'patch' },
+          { type: 'refactor', release: 'patch' },
+          { type: 'style', release: 'patch' },
+        ],
       },
     ],
     '@semantic-release/npm',
