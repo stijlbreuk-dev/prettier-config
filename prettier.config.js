@@ -12,7 +12,7 @@ module.exports = {
 	jsxSingleQuote: true, // default: false
 	trailingComma: 'all', // default: 'es5'
 	// bracketSpacing: true, // default: true
-	bracketSameLine: true, // default: false
+	// bracketSameLine: false, // default: false
 	// arrowParens: 'always', // default: 'always'
 	// requirePragma: false, // default: false
 	// insertPragma: false, // default: false
