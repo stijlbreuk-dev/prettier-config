@@ -36,23 +36,22 @@
     "prettier": "prettier --check .",
     "prettier:fix": "npm run prettier -- --write",
     "semantic-release": "semantic-release",
-    "prepare": "is-ci || husky install",
+    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
     "sort-package-json": "sort-package-json"
   },
   "devDependencies": {
-    "@semantic-release/git": "10.0.1",
-    "conventional-changelog-conventionalcommits": "5.0.0",
-    "husky": "8.0.1",
-    "is-ci": "3.0.1",
-    "lint-staged": "13.0.3",
-    "prettier": "2.7.1",
-    "semantic-release": "19.0.5",
-    "sort-package-json": "1.57.0"
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "semantic-release": "^19.0.5",
+    "sort-package-json": "^2.1.0"
   },
   "peerDependencies": {
     "prettier": "^2"
   },
   "engines": {
-    "node": "^16 || ^18"
+    "node": ">=16"
   }
 }
