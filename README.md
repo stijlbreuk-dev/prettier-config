@@ -1,6 +1,7 @@
 # `@stijlbreuk/prettier-config`
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
   - [`package.json`](#packagejson)
@@ -28,9 +29,9 @@ In your `package.json` add the `prettier` key followed by the package name:
 
 ```json
 {
-	"name": "package-name",
-	"version": "1.0.0",
-	"prettier": "@stijlbreuk/prettier-config"
+  "name": "package-name",
+  "version": "1.0.0",
+  "prettier": "@stijlbreuk/prettier-config"
 }
 ```
 
