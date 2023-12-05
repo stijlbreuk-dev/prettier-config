@@ -28,5 +28,11 @@ module.exports = {
         printWidth: 1000,
       },
     },
+    {
+      files: ['*.yml', '*.yaml'],
+      options: {
+        useTabs: false,
+      },
+    },
   ],
 };
