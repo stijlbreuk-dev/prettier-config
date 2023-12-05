@@ -8,11 +8,11 @@
     "stijlbreuk"
   ],
   "bugs": {
-    "url": "https://github.com/stijlbreuk/prettier-config/issues"
+    "url": "https://github.com/stijlbreuk-dev/prettier-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stijlbreuk/prettier-config"
+    "url": "git+https://github.com/stijlbreuk-dev/prettier-config.git"
   },
   "license": "MIT",
   "author": {
@@ -40,6 +40,7 @@
     "sort-package-json": "sort-package-json"
   },
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.2.4",
     "@semantic-release/npm": "^11.0.1",
